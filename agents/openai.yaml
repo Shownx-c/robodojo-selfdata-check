@@ -1,0 +1,4 @@
+interface:
+  display_name: "RoboDojo 自采数据检查"
+  short_description: "检查自采轨迹、三视角图像、时序和动作语义，输出可追溯的问题证据"
+  default_prompt: "使用 $robodojo-selfdata-check 检查这批自采 RoboDojo 数据，统计轨迹并核对图像、动作、时序及成功标签，给出问题清单和证据。"
